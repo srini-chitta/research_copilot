@@ -23,6 +23,12 @@ ENV/
 # PDF downloads and outputs
 pdfs_downloaded/
 mini_survey.txt
+*_config.json
+
+# Test outputs
+run*.txt
+run*_config.json
+trace_run*.jsonl
 
 # Environment variables / secrets
 .env
@@ -30,6 +36,8 @@ mini_survey.txt
 
 # Logs
 *.log
+research_copilot.log
+trace.jsonl
 
 # Test and coverage outputs
 htmlcov/
