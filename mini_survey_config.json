@@ -1,9 +1,0 @@
-{
-  "timestamp": "2025-11-09T22:18:40.915718",
-  "model": "gpt-4o",
-  "temperature": 0.0,
-  "seed": 42,
-  "topic": null,
-  "pdf_folder": "pdfs_downloaded",
-  "output_file": "mini_survey.txt"
-}
