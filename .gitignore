@@ -48,3 +48,6 @@ dist/
 
 # Ignore MOYA local editable install if present
 moya.egg-info/
+
+# Ignore all JSON files at project root (run configs, metadata)
+/*.json
