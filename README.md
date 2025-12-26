@@ -1,4 +1,3 @@
-
 # Research Co-Pilot
 
 ## Purpose
@@ -140,6 +139,18 @@ python research_copilot.py --topic "Sustainable AI"
 	```sh
 	export OPENAI_API_KEY=your-api-key-here
 	```
+
+## Testing
+
+To run the automated test suite (unit tests for the orchestrator and agents), use `pytest` from the project root:
+
+```sh
+# From the project root
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pytest
+```
 
 ## CLI Usage
 
